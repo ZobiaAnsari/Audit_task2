@@ -1,0 +1,128 @@
+body{
+	padding: 2rem;
+	margin: 0;
+}
+/**********COLOR ANIMATION**********/
+.box1{
+	margin: 	1rem;
+	position: relative	;
+	height: 8rem;
+	width: 8rem;
+	background-color: #fafb32;
+}
+
+.box2{
+	margin: 	1rem;
+	position: relative;
+	height: 8rem;
+	width: 8rem;
+	background-color: #fafb32;
+	animation: box_two 5s linear 2s infinite;
+}
+
+@keyframes box_two{
+	0%		{background-color:#fafb32; 	}
+	50%		{background-color:#86af49;    }
+}
+/********SQUARE ANIMATION***********/
+.square {
+  width: 6rem;
+  height: 6rem;
+  border: solid #000 0.2rem;
+  animation: circle 7s  1s infinite;
+}
+
+@keyframes circle{
+	0%	{border-radius: 0%;}
+	25%	{border-radius: 50% 50% 50% 0%;}
+}
+
+/************BORDERS**********/
+h1{
+	text-align: center;
+	color: #000;
+}
+
+/***********BORDERS************/
+.border{
+	position: relative;
+	height: 1rem;
+	width: 100%;
+/*	border-color: #000;
+*/	margin: 0.4rem 0rem;
+	text-align: center;
+}
+.border1{border: solid black 0.3rem;}
+.border2{border: dotted red 0.3rem;}
+.border3{border: dashed yellow 0.3rem;}
+.border4{border: double blue 0.3rem;}
+.border5{border: groove green 0.3rem;}
+.border6{border: inset pink 0.3rem;}
+.border7{border: outset orange 0.3rem;}
+.border8{border: ridge brown 0.3rem;}
+.border9{border: hidden brown 0.3rem;}
+
+/********FLOAT*******/
+.float{
+	float: right;
+	height: 2rem;
+	width: 6rem;
+	background-color: yellow;
+}
+.left{
+	float: left;
+	background-color: green;
+
+}
+
+/******SHADWOS******/
+.txt{
+	font-size: 2rem;
+}
+.txt1{	text-shadow: 0.1rem 0.1rem;}
+.txt2{	text-shadow: 0.2rem 0.1rem 0.2rem red;}
+.txt3{	text-shadow: 0 0 0.3rem #FF0000, 0 0 0.5rem #0000FF;}
+.txt4{	text-shadow: 0.1rem 0.1rem 0.2rem black, 0 0 0.25rem blue, 0 0 0.5rem darkblue;}
+.txt5{	text-shadow: -0.1rem 0 black, 0 1px black, 0.1rem 0 black, 0 -0.1rem black;}
+
+/********FONTS*******/
+.font1{	font-family: fantasy; }
+.font2{	font-family: Jazz LET, fantasy;}
+.font3{	font-family: Arial, Helvetica, sans-serif;}
+.font4{ font-family: Courier, monospace; }
+.font5{	font-family: URW Chancery L, cursive}
+
+/*******ALIGNMENTS******/
+.alig_1{	text-align: center;}
+.alig_2{	text-align: right;}
+.alig_3{	text-align: justify-all;}
+
+/**********TRANSFORMS**********/
+.trans{
+  width: 15rem;
+  height: 5rem;
+  background-color: darkblue;
+  color: white;
+  border: 0.1rem solid black;
+}
+
+.X:hover{	transform: rotateX(150deg);}
+.Y:hover{	transform: rotateY(150deg);}
+.Z:hover{	transform: rotateZ(30deg);}
+
+
+/**********BACKGROUND**********/
+.bg{
+	position: relative;
+	height: 16rem;
+	width: 16rem;
+	color: white;
+}
+.bg1{
+	background-color: #fafb23;
+}
+.bg2{
+	background-image: url('4.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
